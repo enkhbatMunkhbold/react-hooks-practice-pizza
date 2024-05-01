@@ -14,9 +14,9 @@
     },
     {
       "id": 3,
-      "topping": "Mushroom Sausage",
-      "size": "Large",
-      "vegetarian": "Not Vegetarian"
+      "topping": "Mushroom",
+      "size": "Medium",
+      "vegetarian": true
     },
     {
       "id": 4,

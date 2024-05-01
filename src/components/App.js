@@ -6,7 +6,7 @@ import PizzaList from "./PizzaList";
 function App() {
 
   const [ pizzas, setPizzas ] = useState([])
-  const [ editPizza, setEditPizza ] = useState({})
+  const [ editPizza, setEditPizza ] = useState({topping: '', vegetarian: false})
 
   useEffect(() => {
     fetch('http://localhost:3001/pizzas')
